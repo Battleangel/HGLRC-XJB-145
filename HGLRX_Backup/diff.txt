@@ -1,0 +1,70 @@
+# diff
+
+# version
+# Betaflight / OMNIBUSF4 (OBF4) 3.4.0 Jul  8 2018 / 04:23:56 (cce8a59be) MSP API: 1.39
+
+board_name OMNIBUSF4
+manufacturer_id AIRB
+
+# name
+
+# resources
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -RX_PARALLEL_PWM
+feature RX_SERIAL
+feature MOTOR_STOP
+feature LED_STRIP
+
+# beeper
+
+# beacon
+
+# map
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 2 8192 115200 57600 0 115200
+
+# led
+led 0 7,7::C:12
+led 1 8,7::C:12
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1300 2100 0
+aux 1 1 0 1300 2100 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set acc_calibration = -111,-13,87
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = SBUS
+set dshot_idle_value = 400
+set motor_pwm_protocol = DSHOT600
+set osd_vbat_pos = 2519
+
+# profile
+profile 0
+
+
+# rateprofile
+rateprofile 0
